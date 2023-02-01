@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right:32px ;
+}
+.button-header{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 3px;
+    cursor: pointer;
+}
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+}
+button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+header{
+    margin-top: 48px;
+    margin-left: 48px; 
+}
+section{
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+    bottom: 130px;
+}
+img{
+    margin-left: 20px;
+    margin-top: 60px;
+}
+@media screen and (max-width: 1214px){
+    
+    a{
+        display: none;
+    }
+    .button-header{
+        margin-left: 30vh;
+    }
+    img{
+        width: 312px;
+        height: 288px;
+        position: absolute;
+        margin-top: 290px;
+    }
+    section{
+        display: block;
+        margin-left: 0; 
+        position: static;
+        bottom:0;
+    }
+    h1{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        color: #161A49;
+        width: 278px;
+        margin: 29px 50px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        width: 304px;
+        margin-left: 43px;
+    }
+    button{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        color: #6FBF44;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin-left: 139px;
+    }
+
+}
